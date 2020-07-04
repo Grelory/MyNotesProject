@@ -1,0 +1,39 @@
+div.content {
+    background-color: #c6ff1a;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-flow: wrap row;
+    align-content: flex-start;
+}
+
+div.content button.newNote {
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    border: 0.2em solid black;
+    font: normal bold 50px/1 Arial;
+    text-transform: uppercase;
+}
+
+div.content div.note {
+    width: max-content;
+    height: max-content;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+div.content div.note textarea {
+    margin: 0.5em;
+}
+
+div.content div.note button {
+    background-color: yellow;
+    margin: 0.5em;
+    width: 12vw;
+}
+
